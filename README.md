@@ -5,4 +5,4 @@ A chrome extension to launch social media accounts
     * clone this repo
     * Go to "more_tools/extensions" in chrome-settings
     * Add this repo under local extensions
-
+* Dont forget to change the links in popup.html
