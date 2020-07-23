@@ -13,32 +13,21 @@ h1 {
     margin: 0;
     color: #2f5876;
 }
+.modal-header{
+    margin: 10px;
+    padding: 10px;
+}
 a:link, a:visited{
     color: #000000;
     outline: 0;
-    text-decoration: none;
+    text-decoration: dotted;
 }
 img{
-    width: 30px;
-
-}
-
-.modal-header{
-    align-items:  center;
-    border-bottom: 0.5px solid #dadada;
-
-}
-.modal-icons{
-    border-top: 0.5px solid #dadada;
-    height: 50px;
-    width: 100%;
+    width: 60px;
+    height: 60px;
 }
 .logo{
     padding: 16px;
-}
-.logo-icon{
-    vertical-align: text-bottom;
-    margin-right: 12px;
 }
 .flex-container{
     display: flex;
@@ -49,14 +38,11 @@ img{
 .flex{
     opacity: 1;
     transition: opacity 0.2s ease-in-out;
-    width: 120px;
+    width: 200px;
 
 }
+
 .flex:hover{
     opacity: 0.4;
 
-}
-.flex .fa{
-    font-size: 40px;
-    color : #2f5876;
 }
